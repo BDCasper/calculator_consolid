@@ -1,15 +1,19 @@
 import './App.css';
 import Index from "./pages/calculator/index";
+import Header from './components/header/header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />}/>
-        </Routes>
-      </BrowserRouter>
+      <div className='App-dark'>
+        <Header/>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />}/>
+          </Routes>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }

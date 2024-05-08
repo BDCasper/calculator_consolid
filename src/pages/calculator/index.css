@@ -2,11 +2,6 @@
     width: 100vw;
     max-width: 100%;
     height: 100vh;
-    background-image: url('https://thumb.tildacdn.com/tild3537-6563-4232-b439-643337356538/-/format/webp/wp3704765-logistics-.jpg');
-    background-position: center;
-    background-size:cover;    
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .exp {
@@ -18,12 +13,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     width: 100vw;
     max-width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .calc-main {
